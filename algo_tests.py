@@ -1,6 +1,6 @@
 import unittest
 import time
-from p2_with_invariant import knuth_p1, knuth_p2
+from knuth_verification.knuths_algos import knuth_p1, knuth_p2
 
 class TestKnuthAlgorithms(unittest.TestCase):
     def test_single_value(self):
